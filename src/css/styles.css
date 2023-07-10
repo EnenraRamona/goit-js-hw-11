@@ -20,11 +20,13 @@ h1 {
     width: 100%;
     padding: 10px;
     font-size: 16px;
+    border-radius: 25px;
 }
 
 .search-form button {
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 25px;
 }
 
 .gallery {
@@ -53,10 +55,13 @@ h1 {
     font-size: 14px;
 }
 
-.load-more{
-
-    position: absolute;
-    left: 400px;
-    right: 400px;
+.button-container{
+display: flex;
+    justify-content: center;
     margin-top: 20px;
+}
+
+.load-more{
+    width: 250px;
+    border-radius: 25px;
 }
