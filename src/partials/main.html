@@ -1,27 +1,35 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="/src/css/styles.css">
   <title>Image Search App</title>
 </head>
 
 <body>
-  <div class="container">
+  <header>
     <h1>Image Search App</h1>
-    <form class="search-form" id="search-form">
-      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images...">
-      <button type="submit">Search</button>
-    </form>
-    <div class="gallery">
-      <!-- Картки зображень -->
-    </div>
-    <div class="button-container"><button type="button" class="load-more">Load more</button></div>
-  </div>
+  </header>
 
-  <script src="./js/app.js" type="module"></script>
+  <main>
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input type="text" id="searchQuery" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="gallery">
+        <!-- Картки зображень -->
+      </div>
+
+      <div class="button-container"><button type="button" class="load-more">Load more</button></div>
+    </div>
+  </main>
+
+
+  <script src="/src/index.js" type="module"></script>
+
 </body>
 
 </html>
